@@ -155,3 +155,23 @@
       .footer-meta { order: 3; width: 100%; }
     }
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *:before, *:after { transition-duration: .01ms !important; } }
+
+    .english-section { background: #f7f7f2; }
+    .english-grid { display: grid; grid-template-columns: 1fr .85fr; gap: 72px; align-items: center; }
+    .english-copy { max-width: 600px; }
+    .english-copy h2 { margin: 15px 0; font-size: clamp(34px, 4.3vw, 49px); line-height: 1.04; letter-spacing: -.055em; }
+    .english-copy p { max-width: 510px; margin: 0 0 24px; color: var(--muted); font-size: 15px; line-height: 1.75; }
+    .english-card { position: relative; overflow: hidden; min-height: 290px; padding: 35px; border: 1px solid rgba(32,52,45,.07); border-radius: 28px; background: #e5f0e4; box-shadow: var(--shadow); }
+    .english-card:after { content: "✳"; position: absolute; right: -20px; bottom: -74px; color: rgba(35,107,85,.09); font-size: 220px; pointer-events: none; }
+    .english-sticker { position: absolute; top: 22px; right: 22px; padding: 9px 13px; border-radius: 999px; background: var(--yellow); color: var(--green-dark); font-size: 11px; font-weight: 850; letter-spacing: .12em; transform: rotate(7deg); }
+    .english-card-title { display: flex; align-items: center; gap: 15px; margin: 36px 0 29px; }
+    .english-card-title > span { display: grid; place-items: center; width: 58px; height: 58px; border-radius: 19px; background: rgba(255,255,255,.72); font-size: 28px; }
+    .english-card-title div { display: grid; gap: 4px; }
+    .english-card-title small { color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .13em; }
+    .english-card-title strong { color: var(--green-dark); font-size: 25px; letter-spacing: -.04em; }
+    .english-words { position: relative; z-index: 1; display: flex; flex-wrap: wrap; gap: 9px; }
+    .english-words span { display: inline-flex; align-items: center; gap: 10px; padding: 11px 14px; border: 1px solid rgba(35,107,85,.12); border-radius: 13px; background: rgba(255,255,255,.8); color: var(--green-dark); font-size: 12px; font-weight: 700; }
+    .english-words b { color: #d98c60; }
+    .english-card p { position: relative; z-index: 1; max-width: 330px; margin: 21px 0 0; color: #52655d; font-size: 12px; line-height: 1.6; }
+    @media (max-width: 820px) { .english-grid { grid-template-columns: 1fr; gap: 32px; } }
+    @media (max-width: 620px) { .english-card { min-height: 260px; padding: 25px; } .english-sticker { top: 15px; right: 15px; } .english-card-title { margin-top: 39px; } }
