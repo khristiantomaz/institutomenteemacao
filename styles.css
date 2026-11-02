@@ -175,3 +175,6 @@
     .english-card p { position: relative; z-index: 1; max-width: 330px; margin: 21px 0 0; color: #52655d; font-size: 12px; line-height: 1.6; }
     @media (max-width: 820px) { .english-grid { grid-template-columns: 1fr; gap: 32px; } }
     @media (max-width: 620px) { .english-card { min-height: 260px; padding: 25px; } .english-sticker { top: 15px; right: 15px; } .english-card-title { margin-top: 39px; } }
+
+/* Keep decorative asterisks as text on iOS instead of full-color emoji. */
+.english-card:after, .contact-box:after { content: "✳︎"; }
