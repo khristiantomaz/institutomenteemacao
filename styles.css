@@ -249,3 +249,7 @@ details p { max-width: 600px; margin: -3px 25px 18px 0; color: #65798a; font-siz
 
 /* Mais contraste no rótulo do topo */
 .hero .eyebrow { color: #06243f; }
+
+
+/* Legibilidade do selo no topo */
+.hero .eyebrow { color: #07345b; background: #d9fff6; padding: 7px 11px; border-radius: 999px; }
