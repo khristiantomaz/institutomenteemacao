@@ -245,3 +245,7 @@ details p { max-width: 600px; margin: -3px 25px 18px 0; color: #65798a; font-siz
   .english-note-top { top: 13px; right: 2px; }
   .english-note-bottom { left: 0; bottom: 13px; }
 }
+
+
+/* Mais contraste no rótulo do topo */
+.hero .eyebrow { color: #06243f; }
